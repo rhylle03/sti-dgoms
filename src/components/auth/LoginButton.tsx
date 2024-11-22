@@ -1,8 +1,6 @@
 "use client";
 
 import { loginAction } from "@/actions/users";
-import { supabase } from "@/utils/supabase/client";
-import { redirect } from "next/navigation";
 import { Provider } from "@supabase/supabase-js";
 import { useTransition } from "react";
 import { useRouter } from "next/navigation";

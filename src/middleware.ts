@@ -59,7 +59,7 @@ export const config = {
     "/student-portal/:path*",
     "/academic-head/:path*",
     "/teacher-portal/:path*",
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+    "/((?!_next/static|_next/image|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
   ],
 };
 
