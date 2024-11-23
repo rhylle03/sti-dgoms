@@ -24,7 +24,7 @@ const LoginButton = () => {
   return (
     <>
       <>
-        <button onClick={() => handleLogin("azure")} disabled={isPending}>
+        <button className="rounded-sm bg-sti-yellow p-4"onClick={() => handleLogin("azure")} disabled={isPending}>
           Login with Azure
         </button>
       </>
